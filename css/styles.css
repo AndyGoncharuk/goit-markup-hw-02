@@ -11,7 +11,7 @@ body {
         text-decoration: none;
     }
 
-    .web {
+    .logo > .web {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -24,7 +24,7 @@ body {
         color: #2196F3;
     }
 
-    .studio {
+     .logo >.studio {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -39,14 +39,14 @@ body {
     .header-link {
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.14x;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     }
 
     .header-contacts {
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
     }
