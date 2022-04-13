@@ -1,1 +1,59 @@
-.logo
+body {
+    font-family: 'Roboto',  sans-serif;
+
+    color #212121;
+
+    .list {
+        list-style: none;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        
+        color: #2196F3;
+    }
+
+    .header-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14x;
+        letter-spacing: 0.02em;
+    }
+
+    .header-contacts {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+
+
+    .products-all:active {
+        color: 2196F3;
+    }
+    .products-all:hover,.products-all:focus {
+        color: FFFFFF;
+    }
+    .products-all {
+        color: 000000;
+    }
+
+    .products-website:
+
+}
+
+
+
+
