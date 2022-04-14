@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto',  sans-serif;
 
-    color #212121;
+    color: #212121;}
 
     .list {
         list-style: none;
@@ -62,9 +62,17 @@ body {
         color: 000000;
     }
 
-    .products-website:
+    .products-website {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        
+        /* identical to box height, or 200% */
+        letter-spacing: 0.06em;
 
-}
+    }
+
+
 
 
 
