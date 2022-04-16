@@ -83,6 +83,10 @@ body {
         color: #757575;
     }
 
+    .header-contacts li {
+        list-style: none;
+    }
+
     .header-contacts  a {
         text-decoration: none;
     }
