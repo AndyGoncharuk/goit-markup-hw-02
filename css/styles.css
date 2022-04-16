@@ -106,7 +106,7 @@ body {
     }
 
     
-    .products-all, .products-website, .products-app, .products-design, .products-marketing :hover {
+    .products-all, .products-website, .products-app, .products-design, .products-marketing:hover {
         color: #FFFFFF;
     }
 
