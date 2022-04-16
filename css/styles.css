@@ -36,34 +36,71 @@ body {
         letter-spacing: 0.02em;
         list-style: none;
     }
-    .header-link a {
-        text-decoration: none;
+
+    .studio-link:hover{
+        color: #2196F3;
     }
-   
-    .studio-link:hover, .studio-link:focus, .portfolio:hover, .portfolio:focus, .contacts:hover,
+    .portfolio:hover {
+        color: #2196F3;
+    }
+    .contacts:hover {
+        color: #2196F3;
+    }
+
+    .studio-link:focus {
+        color: #2196F3;
+    }
+    
+    .portfolio:focus {
+        color: #2196F3;
+    }
+    
     .contacts:focus {
         color: #2196F3;
     }
-     
-    .header-mail, .header-tel {
+
+
+    .studio-link, .portfolio, .contacts {
+        text-decoration: none;
+    }
+   
+   
+    .header-mail {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #757575;
+        list-style: none;
+        color: #212121;
+    }
+
+    .header-tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        list-style: none;
+        color: #212121;
     }
 
     .header-contacts  a {
         text-decoration: none;
-        list-style: none;
     }
-    
-    
-    
-    
-    
-    
-    
+    .header-mail:hover {
+        color: #757575;
+    }
+    .header-mail:focus {
+        color: #757575;
+    }
+
+    .header-tel:hover {
+        color: #757575;
+    }
+
+    .header-tel:focus {
+        color: #757575;
+    }
+
     .products, .exemplum {
         list-style: none;
     }
@@ -97,6 +134,7 @@ body {
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
+
     }
 
     .products-app {
@@ -128,6 +166,8 @@ body {
         color: #212121;
         cursor: pointer;
     }
+
+
 
 
 
