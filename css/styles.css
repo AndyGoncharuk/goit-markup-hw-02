@@ -43,27 +43,13 @@ body {
         color: #2196F3;
     }
      
-    .studio-link, .portfolio, .contacts {
-        
-    }
-   
-   
-    .header-mail {
+    .header-mail, .header-tel {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         list-style: none;
-        color: #212121;
-    }
-
-    .header-tel {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        list-style: none;
-        color: #212121;
+        color: #757575;
     }
 
     .header-contacts  a {
