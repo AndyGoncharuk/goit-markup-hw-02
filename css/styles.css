@@ -111,7 +111,26 @@ body {
     .products, .exemplum {
         list-style: none;
     }
-
+    .products-all,
+    .products-website,
+    .products-app,
+    .products-design,
+    .products-marketing {
+        font-weight: 500;       
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        cursor: pointer;
+    }
+    .products-all,
+    .products-website,
+    .products-app,
+    .products-design,
+    .products-marketing {
+        font-family: inherit;
+}
     
     .products-all, .products-website, .products-app, .products-design, .products-marketing:hover {
         color: #FFFFFF;
@@ -129,26 +148,7 @@ body {
         color: #2196F3;
     }
 
-    .products-all,
-    .products-website,
-    .products-app,
-    .products-design,
-    .products-marketing {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-        cursor: pointer;
-    }
-    .products-all,
-    .products-website,
-    .products-app,
-    .products-design,
-    .products-marketing {
-        font-family: inherit;
-}
+    
    
 
 
