@@ -38,7 +38,9 @@ body {
         text-decoration: none;
     }
 
-   
+    .studio-link, .portfolio, .contacts {
+        text-decoration: none;
+}
 
     .studio-link:hover, .studio-link:focus, .portfolio:hover, .portfolio:focus, .contacts:hover,
     .contacts:focus {
