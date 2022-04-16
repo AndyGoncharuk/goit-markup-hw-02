@@ -55,13 +55,13 @@ body {
     .header-contacts  a {
         text-decoration: none;
     }
-    .header-mail:hover, .header-mail:focus {
-        color: #757575;
-    }
-    .header-tel:hover, .header-tel:focus {
-        color: #757575;
-    }
-
+    
+    
+    
+    
+    
+    
+    
     .products, .exemplum {
         list-style: none;
     }
