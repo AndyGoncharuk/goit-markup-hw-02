@@ -1,17 +1,11 @@
 body {
     font-family: 'Roboto',  sans-serif;
 
-    color: #212121;}
+    color: #212121;
 
-    .list {
-        list-style: none;
-    }
+}   
 
-    .link {
-        text-decoration: none;
-    }
-
-    .logo > .web {
+    .header-logo > .web {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -30,50 +24,106 @@ body {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+         
     
     /* identical to box height */
     letter-spacing: 0.03em;
     
     color: #000000;
+        
     }
+
+    .header-nav > .header-logo {
+    text-decoration: none;
+    }
+
+    
     .header-link {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-    }
+        list-style: none;
+}
 
+    .studio-link, .portfolio, .contacts {
+        text-decoration: none;
+}
     .header-contacts {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
+        list-style: none;
+        
     }
+    .header-contacts  a {
+        text-decoration: none;
+    
+}
 
 
-    .products-all:active {
-        color: 2196F3;
+
+    .products, .exemplum {
+        list-style: none;
+}
+
+    .products-all, .products-website, .products-app, .products-design, .products-marketing:active {
+        color: #2196F3;
     }
-    .products-all:hover,.products-all:focus {
-        color: FFFFFF;
+    .products-all, .products-website, .products-app, .products-design, .products-marketing:hover {
+        color: #FFFFFF;
     }
+
+    .products-all, .products-website, .products-app, .products-design, .products-marketing:focus {
+        color: #FFFFFF;
+    }
+
     .products-all {
-        color: 000000;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
     }
 
     .products-website {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        
-        /* identical to box height, or 200% */
-        letter-spacing: 0.06em;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
 
     }
 
+    .products-app {
+        ont-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
 
+    .products-design {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
 
-
+    .products-marketing {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
 
 
