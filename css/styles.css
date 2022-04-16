@@ -69,6 +69,14 @@ body {
     }
 
     
+    .products-all, .products-website, .products-app, .products-design, .products-marketing :hover {
+        color: #FFFFFF;
+    }
+
+    .products-all, .products-website, .products-app, .products-design, .products-marketing:focus {
+        color: #FFFFFF;
+    }
+
     .products-all {
         font-weight: 500;
         font-size: 16px;
@@ -77,12 +85,6 @@ body {
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
-    }
-    .products-all:focus {
-        color: #FFFFFF;
-    }
-    .products-all:hover {
-        color: #FFFFFF;
     }
     .products-all:active {
         color: #2196F3;
@@ -96,16 +98,7 @@ body {
         color: #212121;
         cursor: pointer;
     }
-    .products-website:hover {
-        color: #FFFFFF;
-    }
-    .products-website:focus {
-        color: #FFFFFF;
-    }
-    .products-website:active {
-        color: #2196F3;
-    }
-    
+
     .products-app {
         font-weight: 500;
         font-size: 16px;
@@ -114,15 +107,6 @@ body {
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
-    }
-    .products-app:hover {
-        color: #FFFFFF;
-    }
-    .products-app:focus {
-        color: #FFFFFF;
-    }
-    .products-app:active {
-        color: #2196F3;
     }
 
     .products-design {
@@ -134,15 +118,6 @@ body {
         color: #212121;
         cursor: pointer;
     }
-    .products-design:hover {
-        color: #FFFFFF;
-    }
-    .products-design:focus {
-        color: #FFFFFF;
-    }
-    .products-design:active {
-        color: #2196F3;
-    }
 
     .products-marketing {
         font-weight: 500;
@@ -150,19 +125,9 @@ body {
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121; 
+        color: #212121;
         cursor: pointer;
     }
-    .products-marketing:hover {
-        color: #FFFFFF;
-    }
-    .products-marketing:focus {
-        color: #FFFFFF;
-    }
-    .products-marketing:active {
-        color: #2196F3;
-    }
-   
 
 
 
