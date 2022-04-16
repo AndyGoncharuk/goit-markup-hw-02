@@ -37,16 +37,11 @@ body {
         list-style: none;
     }
 
-    .studio-link:hover, .studio-link:focus {
+    .studio-link:hover, .studio-link:focus, .portfolio:hover, .portfolio:focus, .contacts:hover,
+    .contacts:focus {
         color: #2196F3;
     }
-    .portfolio:hover, .portfolio:focus {
-        color: #2196F3;
-    }
-    .contacts:hover, .contacts:focus {
-        color: #2196F3;
-    }
-
+     
     .studio-link, .portfolio, .contacts {
         text-decoration: none;
     }
