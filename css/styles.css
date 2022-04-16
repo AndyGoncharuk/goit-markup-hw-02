@@ -11,32 +11,23 @@ body {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        
-        /* identical to box height */
         letter-spacing: 0.03em;
-        
         color: #2196F3;
     }
 
-     .header-logo > .studio {
+    .header-logo > .studio {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-         
-    
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    
-    color: #000000;
-        
+        letter-spacing: 0.03em;
+        color: #000000;
     }
 
     .header-nav > .header-logo {
-    text-decoration: none;
+        text-decoration: none;
     }
-
     
     .header-link {
         font-weight: 500;
@@ -44,35 +35,76 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         list-style: none;
-}
+    }
+
+    .studio-link:hover{
+        color: #2196F3;
+    }
+    .portfolio:hover {
+        color: #2196F3;
+    }
+    .contacts:hover {
+        color: #2196F3;
+    }
+
+    .studio-link:focus {
+        color: #2196F3;
+    }
+    
+    .portfolio:focus {
+        color: #2196F3;
+    }
+    
+    .contacts:focus {
+        color: #2196F3;
+    }
+
 
     .studio-link, .portfolio, .contacts {
         text-decoration: none;
-}
-    .header-contacts {
+    }
+    .header-mail {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #757575;
         list-style: none;
         
     }
+
+    .header-tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        list-style: none;
+    
+    }
+
     .header-contacts  a {
         text-decoration: none;
-    
-}
+    }
+    .header-mail:hover {
+        color: #757575;
+    }
+    .header-mail:focus {
+        color: #757575;
+    }
 
+    .header-tel:hover {
+        color: #757575;
+    }
 
+    .header-tel:focus {
+        color: #757575;
+    }
 
     .products, .exemplum {
         list-style: none;
-}
-
-    .products-all, .products-website, .products-app, .products-design, .products-marketing:active {
-        color: #2196F3;
     }
-    .products-all, .products-website, .products-app, .products-design, .products-marketing:hover {
+
+    
+    .products-all, .products-website, .products-app, .products-design, .products-marketing :hover {
         color: #FFFFFF;
     }
 
@@ -87,8 +119,11 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        cursor: pointer;
     }
-
+    .products-all:active {
+        color: #2196F3;
+    }
     .products-website {
         font-weight: 500;
         font-size: 16px;
@@ -96,17 +131,19 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        cursor: pointer;
 
     }
 
     .products-app {
-        ont-weight: 500;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-}
+        cursor: pointer;
+    }
 
     .products-design {
         font-weight: 500;
@@ -115,6 +152,7 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        cursor: pointer;
     }
 
     .products-marketing {
@@ -124,6 +162,9 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        cursor: pointer;
     }
+
+
 
 
