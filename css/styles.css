@@ -142,7 +142,13 @@ body {
         color: #212121;
         cursor: pointer;
     }
-
+    .products-all,
+    .products-website,
+    .products-app,
+    .products-design,
+    .products-marketing {
+        font-family: inherit;
+}
    
 
 
