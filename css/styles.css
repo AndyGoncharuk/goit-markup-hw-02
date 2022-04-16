@@ -132,18 +132,50 @@ body {
         font-family: inherit;
 }
     
-    .products-all, .products-website, .products-app, .products-design, .products-marketing:hover {
+    .products-all:hover {
+        color: #FFFFFF;
+    }
+    .products-website:hover {
+        color: #FFFFFF;
+    }
+    .products-app:hover {
+        color: #FFFFFF;
+    }
+    .products-design:hover {
+        color: #FFFFFF;
+    }
+    .products-marketing:hover {
         color: #FFFFFF;
     }
 
-    .products-all, .products-website, .products-app, .products-design, .products-marketing:focus {
+    .products-all:focus {
+        color: #FFFFFF;
+    }
+    .products-website:focus {
+        color: #FFFFFF;
+    } 
+    .products-app:focus {
+        color: #FFFFFF;
+    }
+    .products-design:focus {
+        color: #FFFFFF;
+    }
+    .products-marketing:focus {
         color: #FFFFFF;
     }
 
-    .products-all,
-    .products-website,
-    .products-app,
-    .products-design,
+    .products-all:active {
+        color: #2196F3;
+    }
+    .products-website:active {
+        color: #2196F3;
+    }
+    .products-app:active {
+        color: #2196F3;
+    }
+    .products-design:active {
+        color: #2196F3;
+    }
     .products-marketing:active {
         color: #2196F3;
     }
