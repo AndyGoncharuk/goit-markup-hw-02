@@ -34,9 +34,8 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        list-style: none;
         text-decoration: none;
-    }
-        .header-link a {list-style: none;
     }
 
     .studio-link:hover, .studio-link:focus, .portfolio:hover, .portfolio:focus, .contacts:hover,
@@ -49,12 +48,12 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        list-style: none;
         color: #757575;
     }
 
     .header-contacts  a {
         text-decoration: none;
+        list-style: none;
     }
     
     
