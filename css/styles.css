@@ -37,6 +37,7 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         list-style: none;
+        color: #212121;
     }
 
     .studio-link:hover{
@@ -127,6 +128,7 @@ body {
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
+        background: #F5F4FA;
         cursor: pointer;
         font-family: inherit;
     }
@@ -134,34 +136,44 @@ body {
     
     .products-all:hover {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-website:hover {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-app:hover {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-design:hover {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-marketing:hover {
         color: #FFFFFF;
+        background: #2196F3;
     }
 
     .products-all:focus {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-website:focus {
         color: #FFFFFF;
+        background: #2196F3;
     } 
     .products-app:focus {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-design:focus {
         color: #FFFFFF;
+        background: #2196F3;
     }
     .products-marketing:focus {
         color: #FFFFFF;
+        background: #2196F3;
     }
 
     .products-all:active {
