@@ -127,14 +127,9 @@ body {
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
-    }
-    .products-all,
-    .products-website,
-    .products-app,
-    .products-design,
-    .products-marketing {
         font-family: inherit;
-}
+    }
+   
     
     .products-all:hover {
         color: #FFFFFF;
