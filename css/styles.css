@@ -225,6 +225,10 @@ body {
         text-decoration: none;
     }
 
+    .address-contacts {
+        list-style: none;
+    }
+
     .address-postoffice {
         font-size: 14px;
         line-height: 1.7;
@@ -232,11 +236,16 @@ body {
         color: #FFFFFF;
     }
 
-    .address-mail, .address-tel {
+    .address-mail {
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
-
+    .address-tel {
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
     
