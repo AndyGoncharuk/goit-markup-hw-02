@@ -108,9 +108,13 @@ body {
 /*--Продукты--*/
 
 
+
     .products, .exemplum {
         list-style: none;
     }
+
+/*--products--*/
+
     .products-all,
     .products-website,
     .products-app,
@@ -181,9 +185,27 @@ body {
     }
 
     
-   
+    /*--exemplum--*/
+
+    .htehnockryak, .hposter, .hrestaurant, .hprime, .hboxes, .hinspiration, .hlimited, .hlab, .hgrowing {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
 
 
 
 
+
+
+    /*--P-шки объединить отдельно--*/
+
+    .exemplum-website, .exemplum-design, .exemplum-app, .exemplum-marketing {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575; 
+    }
 
