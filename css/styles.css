@@ -225,27 +225,19 @@ body {
         text-decoration: none;
     }
 
-    .address-contacts {
-        list-style: none;
-    }
-
-    .address-postoffice {
+      .address-postoffice {
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: #FFFFFF;
     }
 
-    .address-mail {
+    .address-mail, .address-tel {
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-    }
-    .address-tel {
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
     }
     
+        
