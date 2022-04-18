@@ -293,6 +293,10 @@ body {
 
     /*--Футер--*/
 
+    .footer {
+        background: #2F303A;
+    }
+
     .footer-logo>.web {
         font-family: 'Raleway';
         font-style: normal;
