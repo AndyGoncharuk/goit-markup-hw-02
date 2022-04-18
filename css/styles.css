@@ -5,7 +5,9 @@
     --header-link-focus: #2196F3;
     --header-contacts: #757575;
     --header-contacts-hover: #2196F3;
-    --header-contacts-focus: #2196F3;
+    --header-contacts-focus: #2196f3;
+    --studio-link-current: #2196F3;
+    --portfolio-current: #2196F3;
     --products-background: #F5F4FA;
     --products-hover: #FFFFFF;
     --products-hover-background: #2196F3;
@@ -58,7 +60,15 @@ body {
         list-style: none;
         color: var(--header-link);
     }
-
+    
+    .studio-link .current {
+        color: var(--studio-link-current);
+    }
+    
+    .portfolio-current {
+        color: var(--portfolio-current);
+    }
+    
     .studio-link:hover{
         color: var(--header-link-hover);
     }
