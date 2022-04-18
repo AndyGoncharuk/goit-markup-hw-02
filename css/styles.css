@@ -65,13 +65,14 @@ body {
         color: var(--studio-link-current);
     }
     
-    .portfolio-current {
+    .studio-link:hover{
+            color: var(--header-link-hover);
+    }
+
+    .portfolio .current {
         color: var(--portfolio-current);
     }
     
-    .studio-link:hover{
-        color: var(--header-link-hover);
-    }
     .portfolio:hover {
         color: var(--header-link-hover);
     }
