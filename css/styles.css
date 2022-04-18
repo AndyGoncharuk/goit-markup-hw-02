@@ -61,11 +61,11 @@ body {
         color: var(--header-link);
     }
     
-    .studio-link .current {
+    .studio-link-current {
         color: var(--studio-link-current);
     }
 
-    .portfolio .current {
+    .portfolio-current {
         color: var(--portfolio-current);
     }
 
