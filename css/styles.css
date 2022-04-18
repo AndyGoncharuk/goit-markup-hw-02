@@ -1,3 +1,29 @@
+
+:root {
+    --header-link: #212121;
+    --header-link-hover: #2196F3;
+    --header-link-focus: #2196F3;
+    --header-contacts: #757575;
+    --header-contacts-hover: #2196F3;
+    --header-contacts-focus: #2196F3;
+    --products-background: #F5F4FA;
+    --products-hover: #FFFFFF;
+    --products-hover-background: #2196F3;
+    --products-focus: #FFFFFF;
+    --products-focus-background: #2196F3;
+    --products-active: #2196F3;
+    --exemplum-product: #757575;
+    --address-contacts-hover-focus: #2196F3;
+    
+
+
+
+}
+
+
+
+
+
 body {
     font-family: 'Roboto',  sans-serif;
 
@@ -37,29 +63,29 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         list-style: none;
-        color: #212121;
+        color: var(--header-link);
     }
 
     .studio-link:hover{
-        color: #2196F3;
+        color: var(--header-link-hover);
     }
     .portfolio:hover {
-        color: #2196F3;
+        color: var(--header-link-hover);
     }
     .contacts:hover {
-        color: #2196F3;
+        color: var(--header-link-hover);
     }
 
     .studio-link:focus {
-        color: #2196F3;
+        color: var(--header-link-focus);
     }
     
     .portfolio:focus {
-        color: #2196F3;
+        color: var(--header-link-focus);
     }
     
     .contacts:focus {
-        color: #2196F3;
+        color: var(--header-link-focus);
     }
 
 
@@ -74,7 +100,7 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         
-        color: #757575;
+        color: var(--header-contacts);
     }
 
     .header-tel {
@@ -83,7 +109,7 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
        
-        color: #757575;
+        color: var(--header-contacts);
     }
 
     .header-contacts li {
@@ -94,18 +120,18 @@ body {
         text-decoration: none;
     }
     .header-mail:hover {
-        color: #2196F3;
+        color:var(--header-contacts-hover);
     }
     .header-mail:focus {
-        color: #2196F3;
+        color: var(--header-contacts-focus);
     }
 
     .header-tel:hover {
-        color: #2196F3;
+        color: var(--header-contacts-hover);
     }
 
     .header-tel:focus {
-        color: #2196F3;
+        color: var(--header-contacts-focus);
     }
 
     /*--Предложения--*/
@@ -128,68 +154,68 @@ body {
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        background: #F5F4FA;
+        background: var(--products-background);
         cursor: pointer;
         font-family: inherit;
     }
    
     
     .products-all:hover {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-hover);
+        background: var(--products-hover-background);
     }
     .products-website:hover {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-hover);
+        background: var(--products-hover-background);
     }
     .products-app:hover {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-hover);
+        background: var(--products-hover-background);
     }
     .products-design:hover {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-hover);
+        background: var(--products-hover-background);
     }
     .products-marketing:hover {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-hover);
+        background: var(--products-hover-background);
     }
 
     .products-all:focus {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-focus);
+        background: var(--products-focus-background);
     }
     .products-website:focus {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-focus);
+        background: var(--products-focus-background);
     } 
     .products-app:focus {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-focus);
+        background: var(--products-focus-background);
     }
     .products-design:focus {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-focus);
+        background: var(--products-focus-background);
     }
     .products-marketing:focus {
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--products-focus);
+        background: var(--products-focus-background);
     }
 
     .products-all:active {
-        color: #2196F3;
+        color: var(--products-active);
     }
     .products-website:active {
-        color: #2196F3;
+        color:var(--products-active);
     }
     .products-app:active {
-        color: #2196F3;
+        color:var(--products-active);
     }
     .products-design:active {
-        color: #2196F3;
+        color: var(--products-active);
     }
     .products-marketing:active {
-        color: #2196F3;
+        color: var(--products-active);
     }
 
     
@@ -207,7 +233,7 @@ body {
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
-        color: #757575; 
+        color: var(--exemplum-product); 
     }
 
 
@@ -257,19 +283,19 @@ body {
     }
 
     .address-mail:hover {
-        color: #2196F3;
+        color: var(--address-contacts-hover-focus);
     }
     
     .address-mail:focus {
-        color: #2196F3;
+        color: var(--address-contacts-hover-focus);
     }
     
     .address-tel:hover {
-        color: #2196F3;
+        color: var(--address-contacts-hover-focus);
     }
     
     .address-tel:focus {
-        color: #2196F3;
+        color: var(--address-contacts-hover-focus);
     }
     
         
