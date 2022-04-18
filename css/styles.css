@@ -64,15 +64,15 @@ body {
     .studio-link .current {
         color: var(--studio-link-current);
     }
-    
-    .studio-link:hover{
-            color: var(--header-link-hover);
-    }
 
     .portfolio .current {
         color: var(--portfolio-current);
     }
-    
+
+    .studio-link:hover{
+        color: var(--header-link-hover);
+    }
+
     .portfolio:hover {
         color: var(--header-link-hover);
     }
