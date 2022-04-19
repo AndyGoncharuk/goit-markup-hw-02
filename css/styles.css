@@ -140,6 +140,7 @@ body {
 
     /* Стили для index.html */
 
+        /* Баннер */
         .hhero {
             font-weight: 900;
             font-size: 44px;
@@ -167,6 +168,16 @@ body {
             border-radius: 4px;
         }
 
+        /* Наши преимущества */
+
+        .chapter {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
         .preference {
             list-style: none;
         }
@@ -186,7 +197,35 @@ body {
             color: #757575;
         }
 
+        /*  Чем мы занимаемся  */
 
+        .technics {
+            list-style: none;
+        }
+    
+        /*  Наша команда  */
+    
+        .team {
+            list-style: none;
+        }
+    
+        .team-photo {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.9;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
+        .position {
+            font-size: 16px;
+            line-height: 1.19;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #757575;
+        }
+    
+        /* Стили для index.html */
 
     /*--Предложения--*/
 
