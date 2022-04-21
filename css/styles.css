@@ -3,9 +3,9 @@
     --header-link: #212121;
     --header-link-hover: #2196F3;
     --header-link-focus: #2196F3;
-    --header-contacts: #757575;
-    --header-contacts-hover: #2196F3;
-    --header-contacts-focus: #2196f3;
+    --header-contact: #757575;
+    --header-contact-hover-focus: #2196F3;
+    /*--header-contacts-focus: #2196f3;*/
     --studio-link-current: #2196F3;
     --portfolio-current: #2196F3;
     --products-background: #F5F4FA;
@@ -25,27 +25,27 @@ body {
     color: #212121;
 
 }   
-        .header-logo > .web {
-            font-family: 'Raleway', sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.19;
-            letter-spacing: 0.03em;
+
+
+    .header-logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
+    
+    
+        .header-logo>.web {
+    
             color: #2196F3;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    
+        .header-logo>.studio {
+    
+            color: #000000;
         }
 
-        .header-logo > .studio {
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.19;
-            letter-spacing: 0.03em;
-            color: #000000;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
 
         .header-nav > .header-logo {
             text-decoration: none;
@@ -96,36 +96,32 @@ body {
             text-decoration: none;
         }
     
+        .studio-link,
+        .portfolio,
+        .contacts {
+            color: #212121;
+        }
     
-        .header-mail {
+        .header-contact {
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
             
-            color: var(--header-contacts);
+            color: var(--header-contact);
         }
 
-        .header-tel {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;
-        
-            color: var(--header-contacts);
-        }
-
-        .header-contacts li {
+        .header-contact {
             list-style: none;
         }
 
-        .header-contacts  a {
+        .header-contact {
             text-decoration: none;
         }
-        .header-mail:hover {
-            color:var(--header-contacts-hover);
+        .header-contact:hover, .header-contact:focus {
+            color:var(--header-contact-hover-focus);
         }
-        .header-mail:focus {
+        /*.header-mail:focus {
             color: var(--header-contacts-focus);
         }
 
@@ -136,7 +132,7 @@ body {
         .header-tel:focus {
             color: var(--header-contacts-focus);
         }
-   
+   /*
 
     /* Стили для index.html */
 
