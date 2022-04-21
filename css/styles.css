@@ -58,12 +58,10 @@ body {
             letter-spacing: 0.02em;
             list-style: none;
             color: var(--header-link);
-          /*  text-decoration: none;*/
+          
         }
 
-        .header-link {
-            text-decoration: none;
-        }
+        
         
         .studio-link-current {
             color: var(--studio-link-current);
@@ -97,7 +95,8 @@ body {
         }
 
 
-        .studio-link-current, .portfolio-current, .contacts {
+        .studio-link, .portfolio,
+        .contacts {
             text-decoration: none;
         }
     
