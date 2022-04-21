@@ -58,6 +58,7 @@ body {
             letter-spacing: 0.02em;
             list-style: none;
             color: var(--header-link);
+            text-decoration: none;
         }
         
         .studio-link-current {
