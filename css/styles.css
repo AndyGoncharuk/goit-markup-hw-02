@@ -5,7 +5,6 @@
     --header-link-focus: #2196F3;
     --header-contact: #757575;
     --header-contact-hover-focus: #2196F3;
-    /*--header-contacts-focus: #2196f3;*/
     --studio-link-current: #2196F3;
     --portfolio-current: #2196F3;
     --products-background: #F5F4FA;
@@ -111,7 +110,7 @@ body {
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-            
+            list-style: none;
             color: var(--header-contact);
         }
 
@@ -125,18 +124,7 @@ body {
         .header-contact:hover, .header-contact:focus {
             color:var(--header-contact-hover-focus);
         }
-        /*.header-mail:focus {
-            color: var(--header-contacts-focus);
-        }
-
-        .header-tel:hover {
-            color: var(--header-contacts-hover);
-        }
-
-        .header-tel:focus {
-            color: var(--header-contacts-focus);
-        }
-   /*
+       
 
     /* Стили для index.html */
 
