@@ -116,9 +116,9 @@ body {
             color: var(--header-contact);
         }
 
-        .header-contact {
+        /*.header-contact {
             list-style: none;
-        }
+        }*/
 
         .header-contact {
             text-decoration: none;
