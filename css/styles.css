@@ -350,6 +350,7 @@ body {
 
     .address-contacts {
         list-style: none;
+        font-style: normal;
     }
 
     .address-postoffice {
