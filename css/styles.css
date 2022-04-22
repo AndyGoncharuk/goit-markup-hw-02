@@ -348,9 +348,12 @@ body {
         text-decoration: none;
     }
 
+    .address {
+        font-style: normal;
+    }
+
     .address-contacts {
         list-style: none;
-        font-style: normal;
     }
 
     .address-postoffice {
