@@ -112,13 +112,13 @@ body {
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-            list-style: none;
+            /*list-style: none;*/
             color: var(--header-contact);
         }
 
-        /*.header-contact {
+        .header-contacts {
             list-style: none;
-        }*/
+        }
 
         .header-contact {
             text-decoration: none;
