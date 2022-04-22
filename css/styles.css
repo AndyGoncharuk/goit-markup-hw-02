@@ -95,7 +95,9 @@ body {
 
 
         .studio-link, .portfolio,
-        .contacts {
+        .contacts, .studio-link-current,
+        .portfolio-current,
+        .contacts-current {
             text-decoration: none;
         }
     
