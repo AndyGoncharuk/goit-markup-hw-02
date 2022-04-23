@@ -162,6 +162,7 @@ body {
         .order-service:hover {
             color: var(--order-service);
             background: var(--order-service-hover);
+        }
 
         /* Наши преимущества */
 
