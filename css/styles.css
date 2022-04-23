@@ -5,6 +5,7 @@
     --header-link-focus: #2196F3;
     --header-contact: #757575;
     --header-contact-hover-focus: #2196F3;
+    --order-service-hover:#2196F3;
     --studio-link-current: #2196F3;
     --portfolio-current: #2196F3;
     --products-background: #F5F4FA;
@@ -15,6 +16,8 @@
     --products-active: #2196F3;
     --exemplum-product: #757575;
     --address-contacts-hover-focus: #2196F3;
+    --order-service: #FFFFFF;
+    --order-service-hover:#2196F3;
 }
 
 
@@ -155,6 +158,10 @@ body {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
         }
+
+        .order-service:hover {
+            color: var(--order-service);
+            background: var(--order-service-hover);
 
         /* Наши преимущества */
 
